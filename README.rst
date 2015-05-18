@@ -18,14 +18,32 @@ Matlab toolbox ; Graphical User Interface ; SEM ; slip lines ; Hough transformat
 Screenshots
 -------------
 
-.. figure:: ./_pictures/GUI_edgeDetection.png
+.. figure:: ./_pictures/1-GUI_loadingPicture.png
    :scale: 50 %
    :align: center
    
-   *Figure 1 : Edge detection step.*
+   *Figure 1 : Loading of the picture.*
    
-.. figure:: ./_pictures/GUI_HoughTransformation.png
+.. figure:: ./_pictures/2-GUI_croppingStep.png
    :scale: 50 %
    :align: center
    
-   *Figure 2 : Hough transofrmation and slip lines detection.*
+   *Figure 2 : Crop and rotation steps.*
+   
+.. figure:: ./_pictures/3-GUI_croppedPicture.png
+   :scale: 50 %
+   :align: center
+   
+   *Figure 3 : Display of the cropped and rotated picture.*
+   
+.. figure:: ./_pictures/4-GUI_edgeDetection.png
+   :scale: 50 %
+   :align: center
+   
+   *Figure 4 : Edge detection step.*
+   
+.. figure:: ./_pictures/5-GUI_HoughTransformation.png
+   :scale: 50 %
+   :align: center
+   
+   *Figure 5 : Hough transformation and slip lines detection.*

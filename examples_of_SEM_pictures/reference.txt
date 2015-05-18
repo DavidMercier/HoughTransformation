@@ -1,0 +1,4 @@
+Ti–5Al–2.5Sn(wt)_post_tensiletest.tif
+From Li H. et al., "Analysis of slip activity and heterogeneous deformation in tension
+and tension-creep of Ti–5Al–2.5Sn (wt%) using in-situ SEM experiments", Phil. Mag. (2012).
+http://dx.doi.org/10.1080/14786435.2012.682174
