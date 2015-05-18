@@ -10,11 +10,8 @@ pushbutton = questdlg('Ready to quit?', ...
 switch pushbutton
     case 'Yes',
         disp('Exiting MATLAB');
-        %Save variables to test.mat
-        save
         close(gcf)
         clear all
-        cab();
     case 'No',
         quit cancel;
 end
