@@ -21,12 +21,12 @@ else
     gui.flag.licenceFlag = 1;
 end
 
-%% Set the GUI
-gui.config.path_GUI = pwd;
-gui.flag.picture_load = 0;
-gui.flag.HoughTrans = 0;
-
 if gui.flag.licenceFlag
+    %% Set the GUI
+    gui.config.path_GUI = pwd;
+    gui.flag.picture_load = 0;
+    gui.flag.HoughTrans = 0;
+    
     %% Main Window Coordinates Configuration
     scrsize = get(0, 'ScreenSize');   % Get screen size
     WX = 0.05 * scrsize(3);           % X Position (bottom)
@@ -260,13 +260,13 @@ if gui.flag.licenceFlag
         'Callback','picture_HoughTransformation');
     
     %% Creates axes
-        gui.axes = axes('Parent', gui.figure.main_window,...
+    gui.axes = axes('Parent', gui.figure.main_window,...
         'Position',[0.38 0.06 0.6 0.9]);
-        gui.axes_2 = axes('Parent', gui.figure.main_window,...
+    gui.axes_2 = axes('Parent', gui.figure.main_window,...
         'Position',[0.04 0.15 0.3 0.3], ...
         'Visible', 'off');
-
+    
+    guidata(gcf, gui);
 end
 
-guidata(gcf, gui);
 end
