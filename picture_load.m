@@ -16,7 +16,7 @@ if isequal(filenameimage, 0)
     disp('User selected Cancel');
     
 else
-    disp(['User selected', fullfile(pathnameimage, filenameimage)]);
+    disp(['User selected: ', fullfile(pathnameimage, filenameimage)]);
     
     set(gui.handles.ImpImage1File, 'String', filenameimage);
 
