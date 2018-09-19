@@ -3,13 +3,13 @@ HoughTransformation
 This Matlab toolbox has been developed to plot and to analyze SEM micrographs.
 Slip lines detection on SEM micrograph by Hough transformation is implemented in this GUI.
 
-The Image Processing Toolbox™ of Matlab is required.
+The Image Processing Toolboxâ„¢ of Matlab is required.
 
 Author
 ------
-Written by D. Mercier [1].
+:Author: `David Mercier <david9684@gmail.com>`_ [1]
 
-[1] Max-Planck-Institut für Eisenforschung, 40237 Düsseldorf, Germany (http://www.mpie.de/)
+[1] `Max-Planck-Institut fÃ¼r Eisenforschung, 40237 DÃ¼sseldorf, Germany <http://www.mpie.de/>`_
 
 Keywords
 ---------
